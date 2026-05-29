@@ -40,7 +40,6 @@ nav a {
 }
 .skill-card {
     flex: 1;
-    min-width: 3rem;
     background: linear-gradient(135deg, #c05c5c, #ab3939);
     color: white;
     padding: 24px;
@@ -60,7 +59,7 @@ section {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    
+    padding-bottom: 4rem;
 }
 a {
     color: black;
@@ -74,7 +73,7 @@ a {
     border: none;
     padding: 5px 10px;
 }
-.botao :hover {
+.botao:hover {
     background-color: rgb(156, 89, 219);
 }
 footer {
